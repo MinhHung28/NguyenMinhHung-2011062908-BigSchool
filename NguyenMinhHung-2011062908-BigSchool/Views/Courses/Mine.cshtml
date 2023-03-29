@@ -35,14 +35,14 @@
             }*@
 
             </div>
-            <div class="action">
+            @*<div class="action">
                 <a href="@Url.Action("Edit","Courses", new {id=course.Id})">Edit</a>
                 <a href="#" class="js-cancel-course" data-course-id="@course.Id">Cancel</a>
-            </div>
+            </div>*@
         </li>
     }
 </ul>
-@section script
+@*@section script
 {
     <script>
         $(document).ready(function () {
@@ -67,4 +67,4 @@
             });
         });
     </script>
-}
+}*@
